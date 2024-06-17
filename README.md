@@ -86,6 +86,12 @@ Yes, can confirm, this seems like an issue.
 `ContinuousVestingInitializable`, `TrancheVestingInitializable` — the `getVestedFraction()` doesn't care about `data`
 `PerAddressContinuousVestingInitializable`, `PerAddressTrancheVestingInitializable` — the `getVestedFraction()` does care about `data`
 
+**sherlock-admin2**
+
+The protocol team fixed this issue in the following PRs/commits:
+https://github.com/SoftDAO/contracts/pull/47
+
+
 # Issue M-2: PerAddressTrancheVestingMerkleDistributor.claim always reverts because it checks the Merkle proof incorrectly 
 
 Source: https://github.com/sherlock-audit/2024-05-tokensoft-distributor-contracts-update-judging/issues/15 
